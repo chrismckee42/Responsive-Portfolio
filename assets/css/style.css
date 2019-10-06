@@ -1,0 +1,153 @@
+body {
+    background-color: lightgray;
+}
+div{
+    background-color: white;
+}
+
+.top {
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    border-bottom-style: solid;
+    border-color: #777777;
+    border-width: 1px;
+}
+.header {
+    width: 960px;
+    height: 60px;
+    /* position: relative; */
+    margin: auto;
+    background-color: white;
+}
+.name {
+    background-color: #4aaaa5; 
+    color: white;
+    /* width: 200px; */
+    font-size: 20px;
+    padding: 20px;
+    float: left;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}   
+.links {
+    float: right;
+    background-color: white;
+    margin: 22px 0px;
+}
+.link {
+    background-color: white;
+    font-size: 14px;
+    text-decoration: none;
+    color: #777777;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.footer {
+    background-color:  #666666; 
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    border-width: 10px;
+}
+.body {
+    background-color: white;
+    margin: auto;
+    width: 960px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+h2 {
+    background-color: white;
+    padding: 20px 0px;
+    margin: 0px 20px 20px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-color: #777777;
+    border-width: 1px;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.about-me-body {
+    background-color: white;
+    padding: 0px 20px 20px 20px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.picture {
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+h3 {
+    background-color: white;
+    margin: 10px 0px 10px 20px;
+    color: #777777;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+p, input {
+    background-color: white;
+    margin: 0px 0px 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+input {
+    width: 920px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+textarea {
+    background-color: white;
+    margin: 0px 0px 0px 20px;
+    width: 920px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+button {
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+    border-width: 0px;
+    margin: 20px;
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.project {
+    /* height: 200px;
+    width: 200px; */
+    margin: 20px 20px;
+}
+.label {
+    position: relative;
+    width: 100%;
+    top: -170px;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.boxes {
+    display: flex;
+    flex-direction: row;
+    width: 360px;
+}
+
+img {
+    width: 250px;
+}
