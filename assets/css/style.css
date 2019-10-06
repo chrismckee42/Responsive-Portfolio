@@ -151,3 +151,38 @@ button {
 img {
     width: 250px;
 }
+@media screen and (max-width: 980px) {
+
+    .body {
+        width: 680px;
+        margin-left: 40px;
+    }
+    .header {
+        width: 90%;
+        margin-left: 40px;
+    }
+    input {
+        width: 90%;
+    }
+    textarea {
+        width: 90%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    
+    .body {
+        width: 90%;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .header {
+        width: 90%;
+        margin: auto;
+    }
+   
+  }
+
+  @media screen and (max-width: 640px) {
+
+   
+}
